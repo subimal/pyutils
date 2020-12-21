@@ -1,2 +1,2 @@
-# pyutils.io
+# pyutils
 Python pastimes
