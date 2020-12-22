@@ -1,6 +1,9 @@
 ## pyutils 
 A collection of python scripts and tools that I developed along the way for fun, mostly. 
 
+TOC {:toc}
+
+
 ### python3-SimpleStuff ([github](https://github.com/subimal/python3-SimpleStuff) )
 
 It has the following module
