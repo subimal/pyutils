@@ -12,7 +12,7 @@ It has the following module
   * ``gcd`` returns the greatest common divisor of a list of integers.
   * ``lcm`` returns the least common multiple of a list of integers.
   
-Further __details about their implementation__ are available [here](python3-SimpleStuff.md).
+Further __details about the implementation__ are discussed [here](python3-SimpleStuff.md).
 
 For usage check the wiki on it's github page.
 
