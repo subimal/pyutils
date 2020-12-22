@@ -11,7 +11,8 @@ It has the following module
   * ``IsPrime`` to test whether `n` is prime or not. 
   * ``gcd`` returns the greatest common divisor of a list of integers.
   * ``lcm`` returns the least common multiple of a list of integers.
-Further details about their implementation are available [here](python3-SimpleStuff.md).
+  
+Further __details about their implementation__ are available [here](python3-SimpleStuff.md).
 
 For usage check the wiki on it's github page.
 
