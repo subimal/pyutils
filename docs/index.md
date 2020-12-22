@@ -10,7 +10,7 @@ I wrote bitman while revisiting the problem of generating primes. Generation of 
 
 **Task:** Generate prime numbers from 1 to N where N is an integer.
 
-|Technique|Programming language used|
+|*Technique*|*Programming language*|
 |:----------|:------------------------|
 |Brute force|Python|
 |Erastothenes sieve|Python|
