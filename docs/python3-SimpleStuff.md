@@ -1,4 +1,4 @@
-|[pyutils](https://subimal.github.io/pyutils/#pyutils)|
+\|[pyutils](https://subimal.github.io/pyutils/#pyutils)\|
 
 # python3-SimpleStuff
 
