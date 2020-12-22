@@ -10,7 +10,7 @@ It has the following module
   * ``lcm`` returns the least common multiple of a list of integers.
 Further details about their implementation are available [here]().
 
-
+For usage check the wiki on it's github page.
 
 
 ### bitman ([github](https://github.com/subimal/bitman) )
