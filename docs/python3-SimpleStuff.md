@@ -1,4 +1,9 @@
+|[pyutils](https://subimal.github.io/pyutils/#pyutils)|
+
 # python3-SimpleStuff
+
+* TOC
+{:toc}
 
 ## The structure of the package
 
