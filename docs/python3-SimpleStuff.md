@@ -33,10 +33,29 @@ So we see that only those numbers that yield a remainder of 1 or 5 will be candi
 a remainder of 1 or 5 when an integer is divided by 6 means that the number *may* be prime. It is not necessarily prime. As an example consider 35.
 
 
-In this module we use this fact to speed up the test for 2/3 of the integers. The logic is as follows:
+In this module we use this fact to speed up the test for 2/3 of the integers.
+
+#### Algorithm
 * Is the remainder upon dividing `n` by `6` either `1` or `5`?
   * if `Yes`, the number *may* be prime.
     * Check if `n` is divisible by any of odd integers from `1` to `n/2`.
       * If divisible, it is not prime.
       * If not, it is prime.
   * if `No`, the number is definitely composite.
+
+
+#### Examples
+
+##### Generating a list of primes between 1 and 100
+
+```python
+>>> import SimpleStuff.math as m
+>>> ans = []
+>>> for i in range(1,101):
+...     if m.IsPrime(i):
+...             ans.append(i)
+... 
+>>> ans
+[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+>>>
+```
