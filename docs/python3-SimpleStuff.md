@@ -15,6 +15,7 @@ Let us got through the implementation details
     * ``lcm``
 
 ## Implementation details
+
 ### ``SimpleStuff.math.IsPrime``
 It is trivial that all prime numbers except 2 and 3 will have a remainder of 1 or 5. In case you missed why, here is the reason.
 
@@ -78,3 +79,27 @@ True
 [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
 >>>
 ```
+
+### ``SimpleStuff.math.gcd``
+This function is an implementation of [Euclid's algorithm](https://en.wikipedia.org/wiki/Greatest_common_divisor#Euclid's_algorithm) for finding the [greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor) of a list of atleast two numbers.
+
+#### Algorithm
+##### GCD of two numbers `a` and `b` 
+
+* Is `a<b`?
+ * `Yes`: Go to the next step 
+ * `No` : Exchange `a` and `b`
+* As long as `b` is positive 
+ * a <- b
+ * b <- a%b
+* The answer is `a`
+
+##### GCD of a list of integers `l[0]`, `l[1]`, `l[2]`, `l[3]`, ... , `l[n]`
+
+                  GCD of `l[0]` and `l[1]`
+                  |
+                  V
+         GCD of `ans` and `l[2]`
+
+
+#### Examples
