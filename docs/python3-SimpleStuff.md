@@ -96,6 +96,7 @@ This function is an implementation of [Euclid's algorithm](https://en.wikipedia.
 
 ##### GCD of a list of integers `l[0]`, `l[1]`, `l[2]`, `l[3]`, ... and `l[n]`
 
+```
                           GCD of `l[0]` and `l[1]`
                           |
                           V
@@ -113,5 +114,6 @@ This function is an implementation of [Euclid's algorithm](https://en.wikipedia.
   |
   V
   The GCD of `l[0]`, `l[1]`, `l[2]`, `l[3]`, ... and `l[n]`
+```
 
 #### Examples
