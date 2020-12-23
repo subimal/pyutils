@@ -46,6 +46,25 @@ In this module we use this fact to speed up the test for 2/3 of the integers.
 
 #### Examples
 
+##### Is `n` a prime number?
+
+```python
+>>> import SimpleStuff.math as m
+>>> m.IsPrime(1)
+False
+>>> m.IsPrime(15)
+False
+>>> m.IsPrime(17)
+True
+>>> m.IsPrime(171)
+False
+>>> m.IsPrime(10101)
+False
+>>> m.IsPrime(97)
+True
+>>>
+```
+
 ##### Generating a list of primes between 1 and 100
 
 ```python
