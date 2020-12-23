@@ -117,3 +117,18 @@ This function is an implementation of [Euclid's algorithm](https://en.wikipedia.
 ```
 
 #### Examples
+
+```python
+>>> import SimpleStuff.math as m
+>>> m.gcd(8,12)             # ERROR: the argument must be a list of numbers
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: gcd() takes 1 positional argument but 2 were given
+>>> m.gcd([8,12])
+4
+>>> m.gcd([8,12,16])
+4
+>>> m.gcd([8,16, 64])
+8
+>>> 
+```
