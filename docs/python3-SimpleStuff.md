@@ -87,11 +87,11 @@ This function is an implementation of [Euclid's algorithm](https://en.wikipedia.
 ##### GCD of two numbers `a` and `b` 
 
 * Is `a<b`?
- * `Yes`: Go to the next step 
- * `No` : Exchange `a` and `b`
+  * `Yes`: Go to the next step 
+  * `No` : Exchange `a` and `b`
 * As long as `b` is positive 
- * a <- b
- * b <- a%b
+  * a <- b
+  * b <- a%b
 * The answer is `a`
 
 ##### GCD of a list of integers `l[0]`, `l[1]`, `l[2]`, `l[3]`, ... and `l[n]`
