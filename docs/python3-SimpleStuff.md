@@ -88,7 +88,7 @@ This function is an implementation of [Euclid's algorithm](https://en.wikipedia.
 
 * Is `a<b`?
   * `Yes`: Go to the next step 
-  * `No` : Exchange `a` and `b`
+  * `No` : Swap `a` and `b`
 * As long as `b` is positive 
   * a <- b
   * b <- a%b
