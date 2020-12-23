@@ -94,12 +94,24 @@ This function is an implementation of [Euclid's algorithm](https://en.wikipedia.
  * b <- a%b
 * The answer is `a`
 
-##### GCD of a list of integers `l[0]`, `l[1]`, `l[2]`, `l[3]`, ... , `l[n]`
+##### GCD of a list of integers `l[0]`, `l[1]`, `l[2]`, `l[3]`, ... and `l[n]`
 
-                  GCD of `l[0]` and `l[1]`
+                          GCD of `l[0]` and `l[1]`
+                          |
+                          V
+                 GCD of `ans` and `l[2]`
                   |
                   V
          GCD of `ans` and `l[2]`
-
+          |
+          V
+          .
+          .
+          .
+          .
+ GCD of `ans` and `l[n]`
+  |
+  V
+  The GCD of `l[0]`, `l[1]`, `l[2]`, `l[3]`, ... and `l[n]`
 
 #### Examples
