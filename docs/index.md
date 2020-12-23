@@ -4,7 +4,9 @@ A collection of python scripts and tools that I developed along the way for fun,
 * TOC
 {:toc}
 
-### python3-SimpleStuff ([github](https://github.com/subimal/python3-SimpleStuff) )
+### python3-SimpleStuff 
+
+| [github](https://github.com/subimal/python3-SimpleStuff) |
 
 It has the following module
 * ``math``: A set of trivial functions. The following functions are available.
@@ -17,7 +19,9 @@ Further __details about the implementation__ are discussed [here](python3-Simple
 For usage check the wiki on it's github page.
 
 
-### bitman ([github](https://github.com/subimal/bitman) )
+### bitman 
+| [github](https://github.com/subimal/bitman) |
+
 A pure python module for managing/manipulating bits.
 
 
